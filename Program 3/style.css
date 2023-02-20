@@ -1,0 +1,158 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.header
+{
+    background:linear-gradient(45deg, coral, deeppink);
+    color:#fff;
+    text-align:center;
+    width:100%;
+    display: block;
+}
+nav
+{
+    display:flex;
+    padding:10px;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img
+{
+    width:100px;
+    position: relative;
+    left:150px;
+}
+.nav-links
+{
+    flex:1;
+    text-align: center;
+}
+.nav-links h1
+{
+    font-size:36px;
+}
+.nav-links h3
+{
+    font-size:24px;
+}
+.nav-links p
+{
+    font-size: 20px;
+}
+.table-design
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f6f6f6;
+}
+.content-table
+{
+    border-collapse: collapse;
+    margin:20px;
+    font-size:18px;
+    min-width:50%;
+
+}
+.content-table .table-head
+{
+    background-color: #5b5b5b;
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th, .content-table td
+{
+    padding:15px 18px;
+    text-align: center;
+}
+.content-table tr
+{
+    border-bottom: 1px solid #ddd;
+}
+.content-table tr:nth-of-type(even)
+{
+    background-color: #f3f3f3;
+}
+.content-table tr:last-of-type
+{
+    border-bottom: 2px solid #5b5b5b;
+}
+
+.table-data:hover
+{
+    background-color: #f5f5f5;
+    font-weight: bold;
+    color:deeppink;
+    transform: scale(1.02);
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2), 2px 2px 12px rgba(0,0,0,0.2);
+}
+.box
+{
+    width:300px;
+    border-bottom:20px solid #5b5b5b;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin:20px;
+}
+.box h2
+{
+    color: #fff;
+    background: #5b5b5b;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.box ul
+{
+    position: relative;
+    background: #fff;
+}
+.box ul li
+{
+    list-style: none;
+    padding: 10px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.2);
+    transition: transform 0.5s;
+}
+.box ul:hover li
+{
+    opacity: 0.2;
+}
+.box ul li:hover
+{
+    transform: scale(1.1);
+    z-index: 100;
+    background: #5b5b5b;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.2);
+    color: #fff;
+    opacity: 1;
+}
+.box ul li span
+{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    background: #5b5b5b;
+    color: #fff;
+    display:inline-block;
+    border-radius: 100%;
+    margin-right: 10px;
+    font-size: 10px;
+    font-weight: 600;
+    transform: translateY(-2px);
+}
+.box ul li:hover span
+{
+    background: #fff;
+    color:#5b5b5b;
+}
